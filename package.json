@@ -1,0 +1,30 @@
+{
+  "name": "axios-single-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --production --progress --hide-modules"
+  },
+  "repository": "git+https://github.com/sergey-peskov/axios-single-request.git",
+  "keywords": [
+    "axios",
+    "singleRequestId"
+  ],
+  "author": "Sergey Peskov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergey-peskov/axios-single-request/issues"
+  },
+  "homepage": "https://github.com/sergey-peskov/axios-single-request#readme",
+  "devDependencies": {
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
