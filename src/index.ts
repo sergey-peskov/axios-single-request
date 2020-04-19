@@ -21,9 +21,6 @@ export function responseFulfilled(response) {
 	return response;
 } 
 export function responseRejected(error) {
-	if(axios.isCancel(error)) {
-		return
-	}
 	if(!isUndefined(error.config) && !isUndefined(error.config.singleRequestId)) {
 		storage.remove(error.config.singleRequestId);
 	}
